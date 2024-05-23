@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    position: fixed;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 3rem;
+    z-index: 1;
+}
+
+.left-nav li, .right-nav li, .top2 li {
+    float: left;
+    list-style-type: none;
+}
+
+.left-nav li a, .right-nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    padding: 0.625rem 0.625rem;
+}
+
+.left-nav li a:hover, .right-nav li a:hover {
+    text-decoration: underline;
+}
+
+.left-nav {
+    position: fixed;
+    top: 0.938rem;
+    left: 5.5rem;
+}
+
+.right-nav {
+    position: fixed;
+    top: 0.938rem;
+    right: 15.625rem;
+}
+
+.user {
+    margin-right: 0.938rem;
+    color: black;
+}
+
+.user-text {
+    display: block;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    color: black;
+}
+
+.myRogers {
+    position: fixed;
+    right: 7.313rem;
+    top: 0rem;
+    /* margin-top: 0rem; */
+    background-color: #fff;
+    color: black;
+    height: 3rem;
+}
+
+.myRogers:hover {
+    background-color: rgb(219, 218, 218);
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    top: 1.563rem;
+    left: 6.063rem;
+    height: 1.5rem;
+}
+
+.top2 {
+    position: fixed;
+    width: 100%;
+    top: 2.938rem;
+    background-color: rgb(218, 41, 28);
+    height: 5.125rem;
+    z-index: 1;
+}
+
+.top2 ul {
+    position: fixed;
+    left: 15rem;
+    top: 4.688rem;
+}
+
+.top2 li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.063rem;
+    padding: 0.625rem 0.625rem;
+}
+
+.top2 li a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    position: absolute;
+    right: 9.375rem;
+    top: 1.563rem;
+}
+
+.magnifying-glass {
+    color: rgb(255, 255, 255);
+}
+
+.carousel {
+    position: relative;
+}
+
+.carouselTxt {
+    position: absolute;
+    top: 16.563rem;
+    left: 6.063rem;
+}
+
+
+.carouselTxt h1 {
+    font-family: arial;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.carouselTxt p {
+    font-family: arial;
+    font-size: 1.25rem;
+    line-height: 2.188rem;
+}
+
+.carouselTxt button {
+    color: white;
+    background-color: rgb(218, 41, 28);
+    margin-top: 1.25rem;
+    padding: 0.938rem 1.25rem;
+    border: none;
+    border-radius: 0.313rem;
+    font-size: 1.063rem;
+}
+
+.chevron {
+    margin-left: 0.625rem;
+}
+
+.carousel img {
+    position: absolute;
+    top: 8.063rem;
+    right: 7.25rem;
+    height: 32.063rem;
+}
+
+.options {
+    text-align: center;
+    position: relative;
+    top: 23.125rem;
+}
+
+.options img {
+    height: 6.75rem;
+}
+
+.mobile {
+    position: absolute;
+    top: 20.188rem;
+    left: 15.438rem;
+}
+
+.tv {
+    position: absolute;
+    top: 20.188rem;
+    left: 27.063rem;
+}
+
+.internet {
+    position: absolute;
+    top: 20.188rem;
+    left: 38.688rem;
+}
+
+.homeSecurity {
+    position: absolute;
+    top: 20.188rem;
+    right: 26.688rem;
+}
+
+.deals {
+    position: absolute;
+    top: 20.188rem;
+    right: 15.375rem;
+}
+
+.mobile img, .tv img, .internet img, .homeSecurity img, .deals img {
+    margin-bottom: 1.25rem;
+}
+
+.mobile:hover, .tv:hover, .internet:hover, .homeSecurity:hover, .deals:hover {
+    text-decoration: underline;
+}
+
+.offers {
+    position: relative;
+    top: 52.5rem;
+    left: 2.75rem;
+}
+
+table {
+    padding: 3.125rem;
+    width: 92%;
+}
+
+th {
+    border-bottom: 2px solid rgb(219, 216, 216);
+    padding: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 35%; */
+}
+
+.th1 {
+    border-bottom: 0.188rem solid rgb(218, 41, 28);
+}
+
+th:hover {
+    border-bottom: 0.188rem solid black;
+}
+
+.samsung, .iphone, .phonePayments {
+    position: absolute;
+    top: 6.875rem;
+    width: 21.625rem;
+    height: 45rem;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    /*border: 0.063rem solid grey;*/
+}
+
+.samsung h3, .iphone h3,.phonePayments h3 {
+    font-family: arial;
+    color: white;
+    background-color: rgb(218, 41, 28);
+    text-align: center;
+}
+
+.samsung img,.iphone img, .phonePayments img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.samsung h2, .iphone h2, .phonePayments h2{
+    text-align: center;
+    font-family: arial;
+    font-size: 1.063rem;
+}
+
+.samsung p, .phonePayments p{
+    font-family: arial;
+    margin-left: 1.5rem;
+    margin-top: 1.25rem;
+    color: rgb(104, 103, 103);
+    line-height: 1.563rem;
+    /* border: 0.063rem solid black; */
+}
+
+.iphone p {
+    font-family: arial;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+    color: rgb(104, 103, 103);
+    line-height: 1.563rem;
+}
+
+.samsung:hover, .iphone:hover, .phonePayments:hover {
+    /* margin-top: 0.5rem; */
+    position: absolute;
+    top: 6.25rem;
+    /* box-shadow: 0 0 1.563rem grey; */
+}
+
+.samsung {
+    left: 5.625rem;
+}
+
+.iphone {
+    left: 28.563rem;
+}
+
+.phonePayments {
+    right: 11rem;
+}
+
+.samsung h4, .iphone h4 {
+    font-family: Arial;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.75rem;
+
+}
+
+.samsung a, .iphone a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 7.5rem;
+    color: rgb(59, 101, 138);
+}
+
+.phonePayments a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 7.5rem;
+    color: rgb(59, 101, 138);
+    margin-top: 6.25rem;
+}
+
+.allOffers {
+    position: absolute;
+    top: 55.625rem;
+    left: 35.625rem;
+}
+
+.allOffers button {
+    padding: 0.813rem 0.938rem;
+    color: rgb(218, 41, 28);
+    border: 0.063rem solid rgb(218, 41, 28);
+    border-radius: 0.313rem;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 1.063rem;
+}
+
+.allOffers button:hover {
+    text-decoration: underline;
+    color: rgb(155, 28, 19);
+    border: 0.063rem solid rgb(155, 28, 19);
+}
+
+.package {
+    position: relative;
+    top: 103.75rem;
+}
+
+.packageTxt {
+    position: absolute;
+    top: 8.75rem;
+    left: 6.063rem;
+}
+
+
+.packageTxt h1 {
+    font-family: arial;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.packageTxt p {
+    font-family: arial;
+    font-size: 1.25rem;
+    line-height: 2.188rem;
+    color: rgb(80, 78, 78);
+}
+
+.packageTxt button {
+    color: white;
+    background-color: rgb(218, 41, 28);
+    margin-top: 1.25rem;
+    padding: 0.938rem 1.25rem;
+    border: none;
+    border-radius: 0.313rem;
+    font-size: 1.063rem;
+}
+
+.package img {
+    position: absolute;
+    top: 0rem;
+    right: 7.25rem;
+    height: 32.063rem;
+}
+
+.reasons h2 {
+    font-family: arial;
+    font-size: 2.313rem;
+    position: absolute;
+    top: 150rem;
+    left: 26.25rem;
+}
+
+.rogers5G, .waived, .ignite, .client {
+    position: absolute;
+    top: 156.25rem;
+    text-align: center;
+}
+
+.rogers5G {
+    left: 6rem;
+}
+
+.reasons h1 {
+    font-family: arial;
+    font-size: 1.563rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.reasons p {
+    font-family: arial;
+    color: rgb(71, 70, 70);
+    margin-bottom: 1.25rem;
+    line-height: 1.563rem;
+}
+
+.reasons a {
+    font-family: arial;
+    font-size: 1.063rem;
+    color: rgb(59, 101, 138);
+}
+
+.waived {
+    left: 23.125rem;
+}
+
+.ignite {
+    left: 43.125rem;
+}
+
+.client {
+    right: 7.25rem;
+}
+
+.redline {
+    height: 0.375rem;
+    background-color: rgb(218, 41, 28);
+    width: 100%;
+    position: absolute;
+    top: 183.125rem;
+}
+
+.footer {
+    position: relative;
+    top: 174.25rem;
+}
+
+.category1 {
+    position: absolute;
+    left: 26.875rem;
+    top: 3.75rem;
+}
+
+.category1 ul, .category2 ul, .category3 ul {
+    list-style-type: none;
+    font-family: arial;
+    font-size: 0.938rem;
+}
+
+.category1 li a, .category2 li a, .category3 li a {
+    color: rgb(80, 78, 78);
+    padding: 0.375rem;
+    line-height: 3.125rem;
+    text-decoration: none;
+}
+
+.category1 li a:hover, .category2 li a:hover, .category3 li a:hover {
+    text-decoration: underline;
+}
+
+.category2 {
+    position: absolute;
+    left: 44.188rem;
+    top: 3.75rem;
+}
+
+.category3 {
+    position: absolute;
+    right: 15.438rem;
+    top: 3.75rem;
+}
+
+.footer-icons {
+    position: absolute;
+    top: 13.75rem;
+    right: 1.536rem;
+    font-size: 1.438rem;
+    color: rgb(80, 78, 78);
+    padding: 3.125rem;
+    /* border: 0.063rem solid; */
+    /* height: 3.125rem; */
+    z-index: -1;
+}
+
+.facebook:hover, .insta:hover, .youtube:hover, .linkedin:hover, .twitter:hover {
+    background-color: rgb(218, 41, 28);
+    color: white;
+    /*padding: 10px;
+    */border-radius: 3.125rem;
+}
+
+.facebook, .insta, .youtube, .linkedin, .twitter {
+    margin-right: 1.875rem;
+    padding: 0.625rem;
+}
+
+.twitter {
+    margin-top: 1.25rem;
+}
+
+.rogersFooterImg {
+    position: absolute;
+    top: 6.25rem;
+    left: 6.188rem;
+}
+
+.rogersFooterImg img {
+    height: 1.875rem;
+}
+
+.phone, .locationDot {
+    font-size: 1.25rem;
+    margin-right: 0.313rem;
+}
+
+.copyBand {
+    position: relative;
+    top: 28.125rem;
+    height: 3.75rem;
+    width: 100%;
+    background-color: #242323;
+}
+
+.copy {
+    position: absolute;
+    left: 6.188rem;
+    top: 1.25rem;
+    font-family: arial;
+    font-size: 0.875rem;
+    color: white;
+}
